@@ -1,0 +1,84 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#header{
+    min-height: fit-content;
+    padding: 10px 5px;
+    background: silver;
+}
+
+#logocs {
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+}
+
+#container {
+    background: grey;
+}
+
+#myTopnav ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#myTopnav li{
+    width: 100%;
+    display: block;
+}
+
+#myTopnav #burger{
+    position: absolute;
+    z-index: -1;
+    top: 0; 
+    left: 0;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+#myTopnav a, 
+#myTopnav label{
+    display: block;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#myTopnav a:hover,
+#myTopnav label:hover{
+    cursor: pointer;
+    background: hsl(0,0%,20%);
+}
+
+#myTopnav .icon{
+    display: none;
+}
+
+@media screen and ( max-width: 768px ){
+    #myTopnav ul{
+        display: none;
+        flex-direction: column;
+
+    }
+
+    #myTopnav .icon{
+        display: block;
+    }
+
+    
+    #myTopnav #burger:checked ~ ul{
+        display: block;
+    }
+}
