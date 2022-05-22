@@ -19,7 +19,6 @@
 }
 
 #container {
-    background: grey;
 }
 
 #myTopnav ul{
@@ -27,6 +26,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background: grey;
 }
 
 #myTopnav li{
@@ -65,6 +65,44 @@
 #myTopnav .icon{
     display: none;
 }
+
+
+/* #############
+main
+podlasie górą
+podlasia mountain
+################ */
+
+main{
+    background: silver;
+    margin: 0 100px;
+}
+
+
+#lewy{
+    padding: 15px;
+}
+
+#lewy h3,
+#lewy .tekst{
+    color: hsl(0,0%, 5%);
+}
+
+#lewy h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#lewy .tekst{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+#prawy{
+    text-align: center;
+}
+
 
 @media screen and ( max-width: 768px ){
     #myTopnav ul{

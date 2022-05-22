@@ -86,24 +86,26 @@
   </ul>
 </div>
 
+<main>
   <div id="lewy">
-    <h3> 
-      Test Corsair iCUE LS100 i iCUE LT100 - paski i wieże LED dla graczy | PurePC.pl
-    </h3>
-    <div class="tekst">
-      Wszędobylskie już niemal LEDy można albo kochać, albo nienawidzić. Pewnie narażę się wielu z Was pisząc, że do mnie ten rodzaj "wizualnego tuningu" po prostu przemawia. Nie muszę mieć podświetlenia we wszystkim co się da, jednak doceniam gustowny komputerowy zestaw, pracujący w oparciu o jeden, zsynchronizowany ekosystem pokroju Corsair iCUE. Podejmując się zrecenzowania nowych urządzeń pracujących we wspomnianym środowisku (mowa o paskach iCUE LS100 oraz wieżach iCUE LT100), miałam pewne wątpliwości. Odnoszę bowiem wrażenie, że czytelnicy naszego serwisu stoją raczej po drugiej stronie barykady i są niechętni wspomnianym iluminacjom. A mimo to na PurePC miałby pojawić się materiał recenzujący zupełnie opcjonalne (żeby nie napisać - zbędne) elementy wyposażenia komputera, bazujące przede wszystkim (wyłącznie?) na LEDach? Cóż, mimo wszystko, zachowując ducha tolerancji dla wszelkich gustów (bo o tych się przecież nie dyskutuje), zmierzmy się z recenzją Corsair iCUE LS100 i iCUE LT100!
+      <h3> 
+        Test Corsair iCUE LS100 i iCUE LT100 - paski i wieże LED dla graczy | PurePC.pl
+      </h3>
+      <div class="tekst">
+        Wszędobylskie już niemal LEDy można albo kochać, albo nienawidzić. Pewnie narażę się wielu z Was pisząc, że do mnie ten rodzaj "wizualnego tuningu" po prostu przemawia. Nie muszę mieć podświetlenia we wszystkim co się da, jednak doceniam gustowny komputerowy zestaw, pracujący w oparciu o jeden, zsynchronizowany ekosystem pokroju Corsair iCUE. Podejmując się zrecenzowania nowych urządzeń pracujących we wspomnianym środowisku (mowa o paskach iCUE LS100 oraz wieżach iCUE LT100), miałam pewne wątpliwości. Odnoszę bowiem wrażenie, że czytelnicy naszego serwisu stoją raczej po drugiej stronie barykady i są niechętni wspomnianym iluminacjom. A mimo to na PurePC miałby pojawić się materiał recenzujący zupełnie opcjonalne (żeby nie napisać - zbędne) elementy wyposażenia komputera, bazujące przede wszystkim (wyłącznie?) na LEDach? Cóż, mimo wszystko, zachowując ducha tolerancji dla wszelkich gustów (bo o tych się przecież nie dyskutuje), zmierzmy się z recenzją Corsair iCUE LS100 i iCUE LT100!
+      </div>
     </div>
-	</div>
-   <div id="prawy" >
-   <a href="#img1">
-   <img src="komputer.png" alt="komputer" width="600" id="komputer">
-   </a>
-   
-   <a href="#" class="lightbox" id="img1">
-  <span style="background-image: url('komputer.png')"></span>
-	</a>
-   </div>
-</div>
+    <div id="prawy" >
+    <a href="#img1">
+    <img src="komputer.png" alt="komputer" width="600" id="komputer">
+    </a>
+    
+    <a href="#" class="lightbox" id="img1">
+    <span style="background-image: url('komputer.png')"></span>
+    </a>
+    </div>
+  </div>
+</main>
 
 <script>
 function myFunction() {
