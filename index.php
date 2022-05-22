@@ -86,7 +86,6 @@
   </ul>
 </div>
 
-<main>
   <div id="lewy">
       <h3> 
         Test Corsair iCUE LS100 i iCUE LT100 - paski i wieże LED dla graczy | PurePC.pl
@@ -105,7 +104,6 @@
     </a>
     </div>
   </div>
-</main>
 
 <script>
 function myFunction() {

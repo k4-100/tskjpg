@@ -19,6 +19,9 @@
 }
 
 #container {
+    margin: 0 100px;
+    margin-bottom: 200px;
+    background: silver;
 }
 
 #myTopnav ul{
@@ -103,19 +106,27 @@ main{
     text-align: center;
 }
 
+#prawy #komputer{
+    padding: 10px;
+    max-width: 100%;
+}
+
+#myForm{
+    display: none;
+}
+
 
 @media screen and ( max-width: 768px ){
     #myTopnav ul{
         display: none;
         flex-direction: column;
-
     }
 
     #myTopnav .icon{
         display: block;
+        background: grey;
     }
 
-    
     #myTopnav #burger:checked ~ ul{
         display: block;
     }
