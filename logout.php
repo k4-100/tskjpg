@@ -3,8 +3,6 @@
 	session_start();
 	
 	session_unset();
-
-
 ?>
 
 <h2>

@@ -133,7 +133,7 @@
 	
 	<form method="post">
 	
-		<br /> <input placeholder="Użytkownik" style="width: 80%;  padding: 12px 10px;  margin: 8px 0;  box-sizing: border-box;  border: 3px solid #ccc;  -webkit-transition: 0.5s;  transition: 0.5s;  outline: none;" value="<?php
+		<br /> <input placeholder="Użytkownik" class="text_input" value="<?php
 			if (isset($_SESSION['fr_nick']))
 			{
 				echo $_SESSION['fr_nick'];
@@ -149,7 +149,7 @@
 			}
 		?>
 		
-		<br /> <input placeholder="e-mail" style="width: 80%;  padding: 12px 10px;  margin: 8px 0;  box-sizing: border-box;  border: 3px solid #ccc;  -webkit-transition: 0.5s;  transition: 0.5s;  outline: none;" value="<?php
+		<br /> <input placeholder="e-mail" class="text_input" value="<?php
 			if (isset($_SESSION['fr_email']))
 			{
 				echo $_SESSION['fr_email'];
@@ -165,7 +165,7 @@
 			}
 		?>
 		
-		</br> <input type="password" placeholder="hasło" style="width: 80%;  padding: 12px 10px;  margin: 8px 0;  box-sizing: border-box;  border: 3px solid #ccc;  -webkit-transition: 0.5s;  transition: 0.5s;  outline: none;"  value="<?php
+		</br> <input type="password" placeholder="hasło" class="text_input"  value="<?php
 			if (isset($_SESSION['fr_haslo1']))
 			{
 				echo $_SESSION['fr_haslo1'];
@@ -181,7 +181,7 @@
 			}
 		?>		
 		
-		<br /> <input type="password" placeholder="powtórz hasło" style="width: 80%;  padding: 12px 10px;  margin: 8px 0;  box-sizing: border-box;  border: 3px solid #ccc;  -webkit-transition: 0.5s;  transition: 0.5s;  outline: none;" value="<?php
+		<br /> <input type="password" placeholder="powtórz hasło" class="text_input" value="<?php
 			if (isset($_SESSION['fr_haslo2']))
 			{
 				echo $_SESSION['fr_haslo2'];
